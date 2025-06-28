@@ -1,38 +1,8 @@
-const widgets = [
-  {
-    id: 1,
-    img: "/images/groupf.png",
-    num: 75,
-    title: "Total Orders",
-    percentage: 4,
-  },
+import React from 'react'
 
-  {
-    id: 2,
-    img: "/images/groupo.png",
-    num: 357,
-    title: "Total Delivered",
-    percentage: 4,
-  },
-  {
-    id: 3,
-    img: "/images/groupt.png",
-    num: 35,
-    title: "Total Cancelled",
-    percentage: 25,
-  },
-  {
-    id: 4,
-    img: "/images/groupf.png",
-    num: 75,
-    title: "Total Revenue",
-    percentage: 12,
-  },
-];
-
-export default function Widget() {
+const Review = () => {
   return (
-    <div className=" py-6 grid md:grid-cols-4 gap-4 ">
+       <div className=" py-6 grid md:grid-cols-4 gap-4 ">
       {widgets.map((widget) => (
         <div key={widget.id} className="bg-white flex items-center gap-4 p-4 rounded-xl shadow hover:shadow-md transition">
           <div className="bg-[#00B07426] p-2 rounded-full h-20 w-20">
@@ -46,5 +16,7 @@ export default function Widget() {
         </div>
       ))}
     </div>
-  );
+  )
 }
+
+export default Review
