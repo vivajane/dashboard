@@ -32,7 +32,7 @@ const widgets = [
 
 export default function Widget() {
   return (
-    <div className=" py-6 grid md:grid-cols-4 gap-4 ">
+    <div className=" py-6 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 ">
       {widgets.map((widget) => (
         <div key={widget.id} className="bg-white flex items-center gap-4 p-4 rounded-xl shadow hover:shadow-md transition">
           <div className="bg-[#00B07426] p-2 rounded-full h-20 w-20">

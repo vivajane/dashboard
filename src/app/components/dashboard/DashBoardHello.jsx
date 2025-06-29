@@ -4,14 +4,14 @@ import { RiArrowDownSLine } from "react-icons/ri";
 
 const DashBoardHello = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="lg:flex py-2 justify-between items-center">
       <div>
         <h1 className="text-[#464255] text-2xl">DashBoard</h1>
         <p className="text-[#A3A3A3] font-medium text-base py-2">
           Hi, Samantha. Welcome back to Sedap Admin!
         </p>
       </div>
-      <div className="bg-white rounded-md flex gap-4 text-sm p-3">
+      <div className="bg-white rounded-md mt-4 lg:mt-0 flex gap-4 text-sm p-3">
         <span className="bg-[#F3F2F7] text-[#2D9CDB] rounded-lg p-2"><MdMovieFilter size={20} /></span>
        <div className="flex gap-2">
          <div>

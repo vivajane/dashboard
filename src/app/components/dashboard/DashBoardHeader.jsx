@@ -7,7 +7,7 @@ import { MdSettings } from "react-icons/md";
 
 const DashBoardHeader = () => {
   return (
-    <div className="flex gap-6">
+    <div className="lg:flex gap-6">
       <div className="flex relative w-2/3 items-center gap-2">
         <input
           className="p-2 bg-white placeholder:text-[#969BA0] rounded-sm w-full border border-gray-300"
@@ -20,7 +20,7 @@ const DashBoardHeader = () => {
           <AiOutlineSearch size={20} />
         </span>
       </div>
-      <div className="flex items-center gap-6">
+      <div className="flex pt-6 lg:pt-0 items-center gap-6">
         <div className="relative gap-2">
           <span className="bg-[#F3F2F7] text-[#2D9CDB] rounded-full p-2">
             <FaBell />
